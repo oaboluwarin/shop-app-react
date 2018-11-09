@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const ItemCard = props => (
     <div className="col-md-6 col-lg-3">
       <div className="card mb-3">
-        <img className="card-img-top" src={props.image}/>
+        <img className="card-img-top" src={props.image} alt="" />
         <div className="card-body">
           <h4 className="card-title text-center">{props.item.name}</h4>
           <div className="row justify-content-center mb-4">
